@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+ body{
+     font-family: "Arimo", "Arial", sans-serif;
+     display: flex;
+     justify-content: center;
+     background: #f2f2f2;
+}
+ *, *:after, *:before {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+}
+ .pt-1{
+     padding-top: 1em;
+}
+ .pb-1{
+     padding-bottom: 0.5em;
+}
+ .pb-2{
+     padding-bottom: 1em;
+}
+ header{
+     display: flex;
+     flex-wrap: wrap;
+     height: 13em;
+     width: 100%;
+     background: linear-gradient(to right, #e9492a, #e72357);
+}
+ header div{
+     display: flex;
+}
+ .end{
+     height: 6.5em;
+     display: flex;
+     background: #fc4c02;
+     justify-content:center;
+     width: 100%;
+}
+ .end img{
+     height: 3.8em;
+     align-self: center;
+}
+ .vetor{
+     position: absolute;
+}
+ .logo{
+     position: absolute;
+     width: 16.5em;
+     margin: 3em;
+}
+ .circle{
+     margin-top: 3em;
+}
+ .woman{
+     width: 11em;
+     margin-left: 60%;
+     margin-top: 6em;
+}
+ .arrow{
+     margin-left: 25em;
+     margin-top: 2em;
+}
+ .quadratic{
+     margin-left: 19em;
+     margin-top: 11em;
+     width: 2.8em;
+}
+ .triangle{
+     margin-left: 5em;
+     margin-top: -2em;
+     width: 2em;
+}
+ .round{
+     margin-left: 2.5em;
+     margin-top: 7em;
+     width: 6em;
+}
+ .menu-icons{
+     width: 80%;
+}
+ .text-right{
+     color: white;
+     display: flex;
+     flex-direction: column;
+     width: 20%;
+     padding-right: 3em;
+     padding-top: 2.5em;
+     text-align: right;
+}
+ .text-right h1{
+     font-size: 1em;
+     margin-bottom: 1em;
+     font-weight: lighter;
+}
+ .text-right p{
+     font-size: 0.7em;
+}
+ .news {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+}
+ .link-main {
+     flex-basis: 100%;
+}
+ .link-sub {
+     flex-basis: 48%;
+}
+ main{
+     width: 800px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     background: white;
+}
+ footer{
+     background: #f2f2f2;
+     width: 100%;
+     text-align: center;
+     color: #6e6c6c;
+}
+ footer a{
+     color: #6e6c6c;
+     text-decoration: underline;
+}
+ .news {
+     position: relative;
+     width: 700px;
+     margin: auto;
+     margin-top: 50px;
+     z-index: 1000;
+     text-decoration: none;
+}
+ @media screen and (max-width: 730px){
+     .news {
+         width: 90%;
+    }
+     .link-sub {
+         flex-basis: 100%;
+    }
+}
+ .notice{
+     width: 100%;
+}
+ .notice-img{
+     width: 100%;
+}
+ .notice a{
+     text-decoration: none;
+     color: black;
+}
+ .notice .info{
+     color: gray;
+}
+ .notice .about{
+     color: rgb(175, 170, 170);
+     font-style: italic;
+}
+ .notice a h1{
+     font-weight:600;
+}
+ .bar {
+     padding: 2px;
+     width: 60%;
+}
+ .gradient-1{
+     width: 48%;
+     background-image: linear-gradient(to right, #e62259, #6b5ba3);
+}
+ .gradient-2{
+     background-image: linear-gradient(to right, #75c5cf, #675fa6);
+}
+ .gradient-3{
+     background-image: linear-gradient(to right, #75c7ce, #38b389);
+}
