@@ -12,4 +12,4 @@ Decidi utilizar o [Vectorize AI](https://vectorize.ai "Vectorize AI") para auxil
 ![Print do Vectorize](images/screenshot1.png)
 
 
-## Caso queira visualizar o projeto diretamente online é possivel [Clicando Aqui](https://honassis.com/mandatrends) dentro do meu site profissional.
+## Caso queira visualizar o projeto diretamente online é possivel [Clicando Aqui](https://honassis.com.br/mandatrends) dentro do meu site profissional.
